@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/installGroot.html/install.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="groot">
+        <div class="groot-container first">
+            <nav>
+            <img src="/images/groot.png" style="width: 4rem;height: auto; margin: 0 0.5rem "/>
+            <span style="display: inline-flex;"><a href="/" class="square">GrooT UI</a></span>
+            <div class="version"> v1.0</div>
+            </nav>
+            <div class="item-container">
+                <div class="install-ui"><a href="/installGroot.html/install.html" class="install-text"> Installation </a></div>
+                        <a href="/Components/avatar/avatar.html" class="avatar-text ">Avatars</a>
+                        <a href="/Components/alert/alert.html" class="avatar-text">Alert</a>
+                        <a href="/Components/buttons/button.html" class="avatar-text">Badges</a>
+                        <a href="/Components/badges/badges.html" class="avatar-text">Buttons</a>
+                        <a href="/Components/buttons/button.html" class="avatar-text">Cards</a>
+                        <a href="/Components/modal/modal.html" class="avatar-text">Modals</a>
+                        <a href="/Components/input/input.html" class="avatar-text">Input</a>
+                </div>
+                </div>
+        <div class="groot-container second">
+            <div class="avatar-container">
+                <span style="font-size: 2.5rem;">Modal</span><br/>
+                <span style=><p style="font-size: 1.3rem; color: grey;border-left: 3px solid #6B7280;margin-left: 1rem;">A modal is a dialog box/popup window that is displayed on top of the current page.</p></span>
+            </div>
+            <div class="avatar-box">
+            <div class="avatars">
+                <div class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="avatar-modal-code">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%2520tabindex%253D%2522-1%2522%2520role%253D%2522dialog%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-dialog%2522%2520role%253D%2522document%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522modal-title%2522%253EModal%2520title%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522close%2522%2520data-dismiss%253D%2522modal%2522%2520aria-label%253D%2522Close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520aria-hidden%253D%2522true%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520body%2520text%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253ESave%2520changes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%2520data-dismiss%253D%2522modal%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            style="width: 856px; height: 433px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
