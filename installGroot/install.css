@@ -369,10 +369,6 @@ li{
     background-color: white;
     color: #1E3A8A;
 }
-.button-second-color:hover{
-    background-color: #1E3A8A;
-    color: white;
-}
 .button-fourth{
     padding: 1rem 0.8rem;
     border: 1px solid #065F46;
@@ -381,6 +377,7 @@ li{
     color: #065F46;
     margin: 1rem;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .button-fourth:hover{
